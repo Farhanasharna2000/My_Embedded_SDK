@@ -1,1 +1,1 @@
-export * from "./components/EmbeddedForm";
+export { default as EmbeddedForm } from "./components/EmbeddedForm";
