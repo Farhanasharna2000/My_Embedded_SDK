@@ -17,7 +17,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "prepare": "npm run build"
   },
   "peerDependencies": {
